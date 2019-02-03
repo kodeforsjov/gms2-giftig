@@ -1,9 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 78453CCE
-/// @DnDArgument : "expr" "irandom_range(1, 2)"
+/// @DnDHash : 45857517
 /// @DnDArgument : "var" "next_zombie"
-next_zombie = irandom_range(1, 2);
+/// @DnDArgument : "value" "irandom_range(1, 2)"
+var next_zombie = irandom_range(1, 2);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
